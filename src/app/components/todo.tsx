@@ -317,19 +317,6 @@ export default function TodoApp() {
                           <TableCell className="font-medium">
                             <div className="flex flex-col">
                               <span className={cn(todo.completed && "line-through")}>{todo.activity}</span>
-                              {/* <span className="text-sm text-muted-foreground ">{todo.type}</span>
-                              <div className="flex items-center gap-2 mt-1 ">
-                                <span className="text-sm">RM {todo.price.toFixed(2)}</span>
-                                <Badge
-                                  variant="outline"
-                                  className={cn(
-                                    "text-xs",
-                                    todo.bookingRequired ? "bg-amber-100 text-amber-800" : "bg-green-100 text-green-800",
-                                  )}
-                                >
-                                  {todo.bookingRequired ? "Booking Required" : "No Booking"}
-                                </Badge>
-                              </div> */}
                             </div>
                           </TableCell>
                           <TableCell className="table-cell">
